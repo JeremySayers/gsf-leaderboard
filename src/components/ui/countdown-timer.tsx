@@ -46,7 +46,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDateTime }) => {
 
   return (
     <Box p={4} textAlign="center" maxW="sm">
-      <Text fontSize="2xl" color="teal.500">
+      <Text fontSize={["md", "lg", "xl"]} color="teal.500">
         Unlocks in {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
       </Text>
     </Box>
