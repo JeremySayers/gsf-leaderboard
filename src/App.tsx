@@ -56,11 +56,7 @@ export default function App() {
                   </AbsoluteCenter>
                 </Box>
                 <AccordionItemContent>
-                  <Text textStyle="lg">
-                    The Crimson Gate unlocks the ability to progress through the
-                    campaign, do white maps, and outside map activeites up to
-                    area level 72.
-                  </Text>
+                  <Text textStyle="lg">{item.text}</Text>
                   <Box borderWidth="2px" p="5px">
                     <Text>Completion Requirements</Text>
                     <Text textStyle="md">
