@@ -12,7 +12,7 @@ const data: DataItem[] = [
   {
     value: "a",
     title: "Happy Plains",
-    text: "The Happy Plains unlocks the ability to progress through the campaign, do white maps, and outside map activities up to area level 72.",
+    text: "The Happy Plains gate unlocks the ability to progress through the campaign, do white maps, and outside map activities up to area level 72.",
     unlockTime: "2025-01-23T18:00:00",
     requirments: ["Kill Kitava Solo", "Complete a T5 White Map"],
     incomplete: [
