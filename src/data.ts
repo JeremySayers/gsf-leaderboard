@@ -16,7 +16,7 @@ const data: DataItem[] = [
     unlockTime: "2025-01-23T18:00:00",
     requirments: ["Kill Kitava Solo", "Complete a T5 White Map"],
     incomplete: [
-      "Shinichiro",
+      "Switcharoo",
       "Jooblee",
       "Alex",
       "Lion",
@@ -35,7 +35,7 @@ const data: DataItem[] = [
     unlockTime: "2025-01-23T18:00:00",
     requirments: ["Complete a T10 Yellow Map"],
     incomplete: [
-      "Shinichiro",
+      "Switcharoo",
       "Jooblee",
       "Alex",
       "Lion",
@@ -54,7 +54,7 @@ const data: DataItem[] = [
     unlockTime: "2025-01-26T18:00:00",
     requirments: ["Complete a T16 Red Map"],
     incomplete: [
-      "Shinichiro",
+      "Switcharoo",
       "Jooblee",
       "Alex",
       "Lion",
@@ -73,7 +73,7 @@ const data: DataItem[] = [
     unlockTime: "2025-01-27T18:00:00",
     requirments: ["Kill the quest version of the Searing Exarch."],
     incomplete: [
-      "Shinichiro",
+      "Switcharoo",
       "Jooblee",
       "Alex",
       "Lion",
@@ -92,7 +92,7 @@ const data: DataItem[] = [
     unlockTime: "2025-01-28T18:00:00",
     requirments: ["Kill the quest version of the Eater of Worlds."],
     incomplete: [
-      "Shinichiro",
+      "Switcharoo",
       "Jooblee",
       "Alex",
       "Lion",
@@ -111,7 +111,7 @@ const data: DataItem[] = [
     unlockTime: "2025-01-29T18:00:00",
     requirments: ["Kill the Maven."],
     incomplete: [
-      "Shinichiro",
+      "Switcharoo",
       "Jooblee",
       "Alex",
       "Lion",
@@ -130,7 +130,7 @@ const data: DataItem[] = [
     unlockTime: "2025-01-30T18:00:00",
     requirments: ["Kill Uber Elder"],
     incomplete: [
-      "Shinichiro",
+      "Switcharoo",
       "Jooblee",
       "Alex",
       "Lion",
