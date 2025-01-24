@@ -16,7 +16,7 @@ import {
   AccordionItemTrigger,
   AccordionRoot,
 } from "@/components/ui/accordion";
-import { FaLock } from "react-icons/fa";
+import { FaLock, FaLockOpen } from "react-icons/fa";
 import { ColorModeButton } from "./components/ui/color-mode";
 import CountdownTimer from "./components/ui/countdown-timer";
 import data from "./data";
@@ -47,12 +47,18 @@ export default function App() {
                 <Box position="relative">
                   <AccordionItemTrigger>
                     <Icon fontSize="2xl" color="teal.500">
-                      <FaLock />
+                      {item.unlockTime !== "unlocked" ? (
+                        <FaLock />
+                      ) : (
+                        <FaLockOpen />
+                      )}
                     </Icon>
                     {item.title}
                   </AccordionItemTrigger>
                   <AbsoluteCenter axis="vertical" insetEnd="30px">
-                    <CountdownTimer targetDateTime={item.unlockTime} />
+                    {item.unlockTime !== "unlocked" && (
+                      <CountdownTimer targetDateTime={item.unlockTime} />
+                    )}
                   </AbsoluteCenter>
                 </Box>
                 <AccordionItemContent>

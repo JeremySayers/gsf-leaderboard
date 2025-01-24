@@ -13,7 +13,7 @@ const data: DataItem[] = [
     value: "a",
     title: "Happy Plains",
     text: "The Happy Plains gate unlocks the ability to progress through the campaign, do white maps, and outside map activities up to area level 72.",
-    unlockTime: "2025-01-23T18:00:00",
+    unlockTime: "unlocked",
     requirments: ["Kill Kitava Solo", "Complete a T5 White Map"],
     incomplete: [
       "Switcharoo",
@@ -24,15 +24,14 @@ const data: DataItem[] = [
       "Star",
       "BlackDragon",
       "Caldrek",
-      "KryKanos",
     ],
-    done: [],
+    done: ["KryKanos"],
   },
   {
     value: "b",
     title: "Electric Slide",
     text: "The Electric Slide gate unlocks the ability to do yellow maps and outsite activities up to area level 78.",
-    unlockTime: "2025-01-23T18:00:00",
+    unlockTime: "unlocked",
     requirments: ["Complete a T10 Yellow Map"],
     incomplete: [
       "Switcharoo",
