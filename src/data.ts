@@ -17,14 +17,13 @@ const data: DataItem[] = [
     requirments: ["Kill Kitava Solo", "Complete a T5 White Map"],
     incomplete: [
       "Switcharoo",
-      "Jooblee",
       "Lion",
       "izPanda",
       "Star",
       "BlackDragon",
       "Caldrek",
     ],
-    done: ["KryKanos", "Alex"],
+    done: ["KryKanos", "Alex", "Jooblee"],
   },
   {
     value: "b",
