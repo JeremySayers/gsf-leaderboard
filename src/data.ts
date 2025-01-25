@@ -18,12 +18,11 @@ const data: DataItem[] = [
     incomplete: [
       "Switcharoo",
       "Lion",
-      "izPanda",
       "Star",
       "BlackDragon",
       "Caldrek",
     ],
-    done: ["KryKanos", "Alex", "Jooblee"],
+    done: ["KryKanos", "Alex", "Jooblee", "izPanda"],
   },
   {
     value: "b",
