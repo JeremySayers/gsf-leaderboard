@@ -15,8 +15,8 @@ const data: DataItem[] = [
     text: "The Happy Plains gate unlocks the ability to progress through the campaign, do white maps, and outside map activities up to area level 72.",
     unlockTime: "unlocked",
     requirments: ["Kill Kitava Solo", "Complete a T5 White Map"],
-    incomplete: ["Switcharoo", "Lion", "Caldrek"],
-    done: ["KryKanos", "Alex", "Jooblee", "izPanda"],
+    incomplete: ["Switcharoo", "Caldrek"],
+    done: ["KryKanos", "Alex", "Jooblee", "izPanda", "Lion"],
   },
   {
     value: "b",
