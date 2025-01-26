@@ -15,8 +15,16 @@ const data: DataItem[] = [
     text: "The Happy Plains gate unlocks the ability to progress through the campaign, do white maps, and outside map activities up to area level 72.",
     unlockTime: "unlocked",
     requirments: ["Kill Kitava Solo", "Complete a T5 White Map"],
-    incomplete: ["Caldrek"],
-    done: ["KryKanos", "Alex", "Jooblee", "izPanda", "Lion", "Switcharoo"],
+    incomplete: [],
+    done: [
+      "KryKanos",
+      "Alex",
+      "Jooblee",
+      "izPanda",
+      "Lion",
+      "Switcharoo",
+      "Caldrek",
+    ],
   },
   {
     value: "b",
@@ -31,7 +39,7 @@ const data: DataItem[] = [
     value: "c",
     title: "Crimson",
     text: "The Crimson gate unlocks the ability to do red maps and all outsite activities.",
-    unlockTime: "2025-01-26T18:00:00",
+    unlockTime: "unlocked",
     requirments: ["Complete a T16 Red Map"],
     incomplete: [
       "Switcharoo",
