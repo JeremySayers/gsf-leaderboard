@@ -15,8 +15,8 @@ const data: DataItem[] = [
     text: "The Happy Plains gate unlocks the ability to progress through the campaign, do white maps, and outside map activities up to area level 72.",
     unlockTime: "unlocked",
     requirments: ["Kill Kitava Solo", "Complete a T5 White Map"],
-    incomplete: ["Switcharoo", "Caldrek"],
-    done: ["KryKanos", "Alex", "Jooblee", "izPanda", "Lion"],
+    incomplete: ["Caldrek"],
+    done: ["KryKanos", "Alex", "Jooblee", "izPanda", "Lion", "Switcharoo"],
   },
   {
     value: "b",
@@ -24,8 +24,8 @@ const data: DataItem[] = [
     text: "The Electric Slide gate unlocks the ability to do yellow maps and outsite activities up to area level 78.",
     unlockTime: "unlocked",
     requirments: ["Complete a T10 Yellow Map"],
-    incomplete: ["Switcharoo", "Alex", "Lion", "izPanda", "Caldrek"],
-    done: ["KryKanos", "Jooblee"],
+    incomplete: ["Switcharoo", "Alex", "izPanda", "Caldrek"],
+    done: ["KryKanos", "Jooblee", "Lion"],
   },
   {
     value: "c",
