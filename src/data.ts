@@ -32,8 +32,16 @@ const data: DataItem[] = [
     text: "The Electric Slide gate unlocks the ability to do yellow maps and outsite activities up to area level 78.",
     unlockTime: "unlocked",
     requirments: ["Complete a T10 Yellow Map"],
-    incomplete: ["Switcharoo", "Alex", "izPanda", "Caldrek"],
-    done: ["KryKanos", "Jooblee", "Lion"],
+    incomplete: [],
+    done: [
+      "KryKanos",
+      "Jooblee",
+      "Lion",
+      "Switcharoo",
+      "Alex",
+      "izPanda",
+      "Caldrek",
+    ],
   },
   {
     value: "c",
@@ -56,7 +64,7 @@ const data: DataItem[] = [
     value: "d",
     title: "Dino World",
     text: "The Dino World gate unlocks the ability to take on the first voidstone boss, The Searing Exarch.",
-    unlockTime: "2025-01-27T18:00:00",
+    unlockTime: "unlocked",
     requirments: ["Kill the quest version of the Searing Exarch."],
     incomplete: [
       "Switcharoo",
