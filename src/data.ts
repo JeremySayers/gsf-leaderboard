@@ -58,8 +58,8 @@ const data: DataItem[] = [
     text: "The Dino World gate unlocks the ability to take on the first voidstone boss, The Searing Exarch.",
     unlockTime: "unlocked",
     requirments: ["Kill the quest version of the Searing Exarch."],
-    incomplete: ["Switcharoo", "Lion", "izPanda", "Caldrek", "KryKanos"],
-    done: ["Jooblee", "Alex"],
+    incomplete: ["Switcharoo", "Lion", "izPanda", "Caldrek"],
+    done: ["Jooblee", "Alex", "KryKanos"],
   },
   {
     value: "e",
