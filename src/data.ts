@@ -49,8 +49,8 @@ const data: DataItem[] = [
     text: "The Crimson gate unlocks the ability to do red maps and all outsite activities.",
     unlockTime: "unlocked",
     requirments: ["Complete a T16 Red Map"],
-    incomplete: ["Switcharoo", "Lion", "Caldrek", "KryKanos"],
-    done: ["Alex", "Jooblee", "izPanda"],
+    incomplete: ["Switcharoo", "Lion", "Caldrek"],
+    done: ["Alex", "Jooblee", "izPanda", "KryKanos"],
   },
   {
     value: "d",
