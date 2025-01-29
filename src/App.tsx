@@ -57,7 +57,7 @@ export default function App() {
                   </AccordionItemTrigger>
                   <AbsoluteCenter axis="vertical" insetEnd="30px">
                     {item.unlockTime !== "unlocked" && (
-                      <CountdownTimer targetDateTime={item.unlockTime} />
+                      <CountdownTimer targetEpoch={item.unlockTime} />
                     )}
                   </AbsoluteCenter>
                 </Box>

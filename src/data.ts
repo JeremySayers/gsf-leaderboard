@@ -2,7 +2,7 @@ interface DataItem {
   value: string;
   title: string;
   text: string;
-  unlockTime: string;
+  unlockTime: string | number;
   requirments: string[];
   incomplete: string[];
   done: string[];
@@ -81,7 +81,7 @@ const data: DataItem[] = [
     value: "f",
     title: "Brain",
     text: "The Brain gate unlocks the abiliity to take on Maven herself directly. (Note that the invitations leading up to her are only gated by the map gates).",
-    unlockTime: "2025-01-29T18:00:00",
+    unlockTime: 1738191600000,
     requirments: ["Kill the Maven."],
     incomplete: [
       "Switcharoo",
@@ -98,7 +98,7 @@ const data: DataItem[] = [
     value: "g",
     title: "Even Squidlier",
     text: "The Even Squidlier gate allows you to take on the last voidstone boss, Uber Elder. ",
-    unlockTime: "2025-01-30T18:00:00",
+    unlockTime: 1738278000000,
     requirments: ["Kill Uber Elder"],
     incomplete: [
       "Switcharoo",
